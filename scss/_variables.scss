@@ -1,0 +1,160 @@
+/* base colors and variables*/
+
+$color-black: #000000;
+$color-gray-dark: #202628;
+$color-gray-darker-120: #767c7e;
+$color-gray-127: #7f7f7f;
+$color-gray-lighter-140: #888d8f;
+$color-gray-darker-170: #9faaad;
+$color-white-darker-231: #e7e7e7;
+$color-white: #ffffff;
+$color-red-darker: #8d1e31;
+$color-red: #e84c3d;
+$color-red-lighter: #ff9686;
+
+$font-fjalla-one: "Fjalla One", serif;
+$font-lato: "Lato", sans-serif;
+$font-oswald: "Oswald", sans-serif;
+
+/* ------------------- */
+/* html file variables */
+/* ------------------- */
+
+/* general */
+$block-top-bottom-paddings: 80px 0;
+$intext-link-color: $color-red;
+$paragraphs-color: $color-gray-darker-120;
+$paragraphs-line-height: 24px;
+$buttons-min-width: 70px;
+
+/* icons */
+$icon-bg-size: 70px;
+$icon-bg-color: $color-red;
+$icon-font-size: 30px;
+$icon-color: $color-white;
+
+/* heading */
+$heading-main-font: $font-fjalla-one;
+$heading-second-font: $font-lato;
+$heading-color: $color-gray-dark;
+
+/* header */
+$header-color: $color-gray-dark;
+$header-height: 80px;
+$navbar-font: $font-fjalla-one;
+$navbar-brand-size: 25px;
+$navbar-item-width: 75px;
+
+/* footer height*/
+$footer-height: 80px;
+$footer-top-padding: 80px;
+$footer-background: $color-gray-dark;
+
+/* main */
+$view-port-height: 100vh;
+$b: $footer-height + $footer-top-padding;
+
+/* promo-block*/
+$promo-block-arrow-height: 70px;
+$promo-block-arrow-width: $promo-block-arrow-height / 2;
+$promo-block-arrow-background: $color-red;
+$promo-block-arrow-color: $color-gray-dark;
+$promo-block-ico-size: 20px;
+$promo-block-href-color: $color-red;
+$promo-block-background-color: $color-gray-dark;
+$promo-block-height: 560px + $header-height;
+$promo-block-text-color: $color-white;
+
+/* propositions-block */
+$propositions-block-background: $color-white-darker-231;
+
+/* news-block */
+$section-header-size: 21px;
+
+$topic-header-font: $font-lato;
+$topic-header-color: $color-red;
+$topic-header-size: 20px;
+$topic-header-weight: normal;
+$topic-border: 1px solid $color-white-darker-231;
+$news-block-button-color: $color-white;
+$news-block-button-font: $font-oswald;
+$news-block-button-font-size: 14px;
+
+/* subscribe-block */
+$subscribe-block-background-color: $color-red;
+$subscribe-block-background-border-radius: 12px;
+$subscribe-block-background-top-bottom-paddings: 50px;
+$subscribe-block-icons-background-color: $color-black;
+$subscribe-block-text-color: $color-white;
+$subscribe-block-form-submit-background: $color-gray-dark;
+$subscribe-block-form-submit-color: $color-white;
+$form-submit-padding: 20px;
+
+/* reflection-block */
+$reflection-block-padding: 50px 0;
+$reflection-block-heading-size: 21px;
+
+$feedback-form-background: $color-white-darker-231;
+$feedback-form-submit-color: $color-white;
+$feedback-form-textarea-border-radius: 10px;
+$feedback-list-border-top: 1px solid $color-white-darker-231;
+$feedback-list-border-bottom: 1px solid $color-white-darker-231;
+$feedback-list-padding: 22px 0;
+$feedback-form-space-between: 20px;
+
+$contacts-icon-size: 23px;
+$contacts-type-color: $color-red;
+$user-avatar-size: 70px;
+
+/* footer */
+$nav-links-color: $color-white;
+$nav-links-right-margin: 40px;
+$footer-credits-color: $color-gray-darker-120;
+$footer-credits-hover-color: $color-red;
+$footer-credits-space-between: 10px;
+$footer-credits-top-margin: 20px;
+$footer-social-ico-bacground: $color-red;
+$footer-social-ico-size: 20px;
+
+$footer-social-height: 42px;
+$footer-social-margin-left: 10px;
+
+
+/* -------------------------- */
+/* bootstrap variable override */
+/* -------------------------- */
+
+/* icons*/
+$icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+$icon-font-name: "glyphicons-halflings-regular";
+
+
+/* font */
+$font-family-base: $font-lato;
+$headings-font-family: $font-fjalla-one;
+$headings-color: $color-gray-dark;
+
+/* button */
+$btn-primary-bg: $color-red;
+$btn-primary-color: $color-white;
+$border-radius-large: 20px;
+
+/* forms */
+$input-border-radius-large: $border-radius-large;
+$input-border: $color-white;
+$inputs-height: 41px;
+
+/* header */
+$navbar-height: $header-height;
+$navbar-default-bg: transparent;
+$navbar-default-link-color: $color-white;
+$navbar-default-link-active-bg: $color-red;
+$navbar-default-link-active-color: $color-white;
+$navbar-default-link-hover-bg: lighten($navbar-default-link-active-bg, 6.5%);
+$navbar-default-link-hover-color: $color-white;
+
+/* news-block */
+$jumbotron-bg: $color-white;
+$jumbotron-font-size: 14px;
+$jumbotron-color: $color-gray-darker-120;
+$jumbotron-padding: 7.5px;
